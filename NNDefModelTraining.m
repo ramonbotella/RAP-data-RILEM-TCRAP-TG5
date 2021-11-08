@@ -3,7 +3,7 @@
 
 % First columns of data file are features and last column contains labels
 % Data without heading
-data = load('rapdataMatlab.csv');
+data = load('rapdataMatlabANN.csv');
 %   Shuffleling the rows of data
 %   Create a vector of m components with index randomized with the
 %   following comand
