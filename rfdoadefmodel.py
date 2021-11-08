@@ -27,7 +27,7 @@ def evaluate(model, test_features, test_labels):
 
 #%%Loading data 
 
-file_path = r'rapdataTCRAPall.csv'                       # Read in data
+file_path = r'rapdataPyRF.csv'                           # Read in data
 features = pd.read_csv(file_path,encoding='utf-8')       # Features are the input variables
 labels = np.array(features['DoA (% max.ITS)'])           # Labels are the values we want to predict
 features= features.drop('DoA (% max.ITS)', axis = 1)     # Remove the labels from the features
