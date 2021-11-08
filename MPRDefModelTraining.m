@@ -4,7 +4,7 @@
 
 %  The first two columns contains the X values and the third column
 %  contains the label (y).
-data = load('rapdataMatlab.csv');
+data = load('rapdataMatlabMPR.csv');
 %   Shuffleling the rows of data
 %   Create a vector of m components with index randomized with the
 %   following comand
