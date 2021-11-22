@@ -1,5 +1,3 @@
-import numpy as np
-import matplotlib.pyplot as plt
 ############################################################################
 #   by Ramon Botella, 11/22/2021
 #
@@ -16,6 +14,7 @@ import matplotlib.pyplot as plt
 #   is reported.
 ############################################################################
 
+import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
